@@ -9,6 +9,7 @@ div{
 
 #name {
     font-weight: bold;
+    font-size: 20px;
     color: #ffffff;
     margin-top: 5%;
     margin-left: -10%;    
@@ -17,6 +18,20 @@ div{
 #titulo {
     color: #ffffff;
     margin-left: -10%;  
+}
+
+#acercademi {
+    font-size: 25px;
+    color: #ffffff; 
+    position: relative;
+    top: 12%;
+}
+
+#descripcion {
+    font-size: 17px;
+    color: #ffffff; 
+    position: relative;
+    top: 15%;
 }
 
 @media (min-width: 576px){

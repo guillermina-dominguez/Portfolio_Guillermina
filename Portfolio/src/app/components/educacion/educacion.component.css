@@ -1,0 +1,15 @@
+.row{
+    padding: 20px;
+}
+
+div{
+    background-color: #CDA4A9;
+}
+
+h2, h3 {
+    display: inline;
+}
+
+ul{
+    margin-left: 2%;
+}
