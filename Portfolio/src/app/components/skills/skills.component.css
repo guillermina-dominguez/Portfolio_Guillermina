@@ -1,0 +1,10 @@
+.row{
+    background-color: #dbb5ba;
+    padding: 10px;
+    position: relative;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
