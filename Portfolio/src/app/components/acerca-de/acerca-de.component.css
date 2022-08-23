@@ -7,6 +7,15 @@ div{
     text-align: center;
 }
 
+#fotoperfil{
+    position: absolute;
+    width: 15%;
+    border-radius: 100%;
+    box-shadow: 3px 3px 3px grey;
+    margin-top: -10%;
+    margin-left: -7%;
+}
+
 #name {
     font-weight: bold;
     font-size: 20px;
@@ -34,25 +43,42 @@ div{
     top: 15%;
 }
 
-@media (min-width: 576px){
-    #fotoperfil {
-        position: absolute;
-        width: 15%;
+@media (max-width: 768px) {
+    #fotoperfil{
+        width: 22%;
+        margin-top: -17%;
+        margin-left: -12%;
+        position: absolute;        
         border-radius: 100%;
         box-shadow: 3px 3px 3px grey;
-        margin-left: -7%;
-        margin-top: -10%;
     }
+    #name{
+        font-size: 20px;
+        margin-left: 0%;
     }
+
+    #titulo{
+        font-size: 18px;
+        margin-left: 0%;
+    }
+
+    #acercademi{
+        font-size: 22px;
+    }
+
+    #descripcion{
+        font-size: 18px;
+    }
+}
 
 @media (max-width: 576px){
     #fotoperfil {
         position: absolute;
-        width: 35%;
+        width: 30%;
         border-radius: 100%;
         box-shadow: 3px 3px 3px grey;
-        margin-left: -18%;
-        margin-top: -25%;
+        margin-left: -15%;
+        margin-top: -20%;
     }
 
     #name {

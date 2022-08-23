@@ -1,3 +1,64 @@
 #logoAP{
     width: 150px;
 }
+
+img{
+    width: 35px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redessociales{
+    width: 40%;      
+}
+
+.redessoceingreso{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+a{
+    margin: 0.5%;
+    
+}
+
+button{
+    border: 2px solid #F9F2F2;
+    background-color: #CDA4A9;
+    position: relative;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 7%;
+    color: #F9F2F2;
+    font-weight: bold;
+    
+}
+
+button:hover{
+    border: 2px solid #7E6F6F;
+    background-color: #F9F2F2;
+    color: #7E6F6F;
+}
+
+/*---Para responsive celular---*/
+@media (max-width: 576px){
+    #logoAP{
+        width: 120px;
+    }
+    
+    img{
+        width: 27px;
+    }
+
+    button{
+        font-size: 12px;
+        padding: 2% 2%;
+    }
+}
+

@@ -1,10 +1,30 @@
 .row{
     background-color: #dbb5ba;
     padding: 10px;
+    height: 650px;
+    
+}
+
+h1{
     position: relative;
+    top: 30px;
+    text-align: center;
+    color: #5B4F52;
+    
 }
 
 .container{
     display: flex;
     justify-content: center;
+    position: relative;
+    top: 20px;
 }
+
+@media (max-width: 576px){
+    .container{
+        width: 50%;
+    }
+}
+
+
+
